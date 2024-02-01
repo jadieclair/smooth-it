@@ -1,9 +1,6 @@
-:root {
-  --primary-font: "Work Sans", sans-serif;
-}
-
 body {
   padding: 15px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .logo {
@@ -62,7 +59,6 @@ body {
   font-size: 25px;
   max-width: 600px;
   margin: 0 auto;
-  font-family: var(--primary-font);
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -82,7 +78,6 @@ body {
 
 .desc-container {
   display: flex;
-  font-family: var(--primary-font);
   font-optical-sizing: auto;
   font-style: normal;
   background-color: rgb(240, 217, 230);
@@ -110,7 +105,6 @@ body {
 }
 
 .about {
-  font-family: var(--primary-font);
   font-size: 36px;
   color: rgb(50, 49, 49);
 }
@@ -145,7 +139,6 @@ body {
 
 .illustration-text {
   max-width: 300px;
-  font-family: var(--primary-font);
   font-weight: 400;
   font-size: 16px;
 }
@@ -179,6 +172,27 @@ body {
   margin-left: 50px;
 }
 
+.button {
+  background-color: rgb(121, 18, 65);
+  border: none;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: rgb(121, 18, 65);
+  transform: scale(1.1);
+  transition: transform 300ms ease;
+  color: #fff;
+}
+
 /* PRODUCTS PAGE */
 
 .products-grid {
@@ -196,4 +210,15 @@ body {
 
 .products-header {
   font-family: var (--primary-font);
+}
+
+/* CONTACT PAGE */
+
+.contact-page {
+  font-family: var(--primary-font);
+}
+
+.custom-form {
+  max-width: 600px;
+  margin: 0 auto;
 }
