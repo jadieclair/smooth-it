@@ -10,37 +10,191 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Kalam:wght@300;400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/about.html">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact Us</a>
-            </li>
-          </ul>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+              <img src="images/logo.jpg" alt="Logo" class="logo img-fluid" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="/"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/products.html"
+                    >Products</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/contact.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="parallax-container container">
+          <div class="parallax-img img-fluid"></div>
+          <div class="content">
+            <h1 class="title">Smooth~It!</h1>
+            <p class="subtitle">
+              The easy way to be healthy. <br />
+              Super Food Smoothies Delivered to You....
+            </p>
+          </div>
+        </div>
+        <div class="banner"></div>
+        <div class="desc-container">
+          <div class="col-12 col-md-6 flex-column">
+            <h2 class="about text-center mt-4">About Us</h2>
+            <p class="desc text-center ml-4 me-5 ms-5">
+              Welcome to Smooth~It, where we revolutionize your smoothie
+              experience! We understand the challenges of crafting the perfect
+              smoothie at home, from the constant struggle to maintain a stocked
+              ingredient supply to the frustration of inconsistent taste and
+              costs due to varying ingredient weights.
+              <br />
+              <br />
+              Our mission is to simplify your smoothie journey by offering a
+              convenient solution with fresh or frozen smoothie packs made with
+              premium superfoods. Say goodbye to the hassle of managing
+              ingredients, the fluctuating taste caused by inconsistent weights,
+              and the lengthy time to make.
+              <br />
+              <br />
+              We ensure each Smooth~It pack delivers a consistent and delicious
+              blend of healthful ingredients, eliminating the guesswork and
+              empowering you to enjoy a nutritious and delightful smoothie every
+              time. Experience the ultimate in smoothie convenience with
+              Smooth~It – where health meets simplicity!
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <img
+              src="/images/home/strawberry.jpg"
+              alt="Strawberry Smoothie"
+              class="strawberry-smoothie img-fluid"
+            />
+          </div>
+        </div>
+        <div class="breaker"></div>
+
+        <div class="method">
+          <div class="col-12 col-md-4 mt-4">
+            <div class="d-flex flex-column align-items-center">
+              <p class="illustration-text text-center">
+                <strong>Only the freshest produce is selected:</strong>
+                <br />
+                Each Blendid Superfood Smoothie Cup is meticulously crafted with
+                pride in selecting only the richest and freshest produce for an
+                unparalleled smoothie experience.
+              </p>
+              <div class="image-container">
+                <img
+                  src="/images/home/fruits.webp"
+                  alt="Five different smoothies surrounded by fruit"
+                  class="illustration-img mx-auto d-block same-size-image img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mt-4">
+            <div class="d-flex flex-column align-items-center">
+              <p class="illustration-text text-center">
+                <strong>Expertly Pairing Produce with Precision:</strong>
+                <br />
+                Our meticulous measurements and precise blending techniques work
+                in harmony, creating a magical blend with vibrant colors,
+                delicious textures and rich flavors.
+              </p>
+              <div class="image-container">
+                <img
+                  src="/images/home/blender.jpg"
+                  alt="Blender with ingredients inside it surrounded by produce"
+                  class="illustration-img mx-auto d-block same-size-image img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mt-4">
+            <div class="d-flex flex-column align-items-center">
+              <p class="illustration-text text-center">
+                <strong>Indulge in Ready-to-Enjoy Superfood Smoothies:</strong>
+                <br />
+
+                Our eco-friendly packaging ensures sustainable practices, while
+                our product meets your nutritional needs with a Smooth~it cup!
+                Enjoy a healthy lifestyle!
+              </p>
+              <div class="image-container">
+                <img
+                  src="/images/home/hero.jpg"
+                  alt="Smoothie jars on dark surface"
+                  class="illustration-img mx-auto d-block same-size-image img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-logo">
+          <img
+            src="/images/home/large-logo.png"
+            alt="Logo"
+            class="img-fluid large-logo mt4"
+          />
+          <h2>Smooth~It</h2>
+          <h3 class="mb-4">Contact Us Today!</h3>
+        </div>
+        <div class="d-flex p-4 mt-4">
+          <div
+            class="col-12 col-sm-6 d-flex flex-column align-items-center justify-content-center"
+          >
+            <p>248, Sycamore Street, Cape Town</p>
+            <p>(Factory store on site)</p>
+            <p>sales@smooth-it.com</p>
+            <p>Monday - Friday</p>
+            <p>08h00 - 16h00</p>
+          </div>
+
+          <div class="col-6 col-sm-12">
+            <img
+              src="/images/home/contact-img.jpg"
+              alt=""
+              class="img-fluid contact-img p-3 rounded-5"
+            />
+          </div>
         </div>
       </div>
-    </nav>
-    <h1>Home</h1>
+    </div>
   </body>
 </html>

@@ -1,0 +1,199 @@
+:root {
+  --primary-font: "Work Sans", sans-serif;
+}
+
+body {
+  padding: 15px;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.navbar {
+  background: linear-gradient(
+    to right,
+    rgb(102, 106, 55),
+    rgb(204, 179, 2),
+    rgb(174, 25, 34),
+    rgb(70, 8, 11)
+  );
+  color: #fff;
+}
+
+.parallax-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.parallax-img {
+  background-image: url("/images/home/parallax.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(80%);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 90px;
+  margin-bottom: 20px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.subtitle {
+  font-size: 25px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: var(--primary-font);
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.banner {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to left,
+    rgb(121, 18, 65),
+    rgb(179, 4, 124),
+    rgb(213, 33, 102),
+    rgb(234, 166, 205)
+  );
+  height: 50px;
+}
+
+.desc-container {
+  display: flex;
+  font-family: var(--primary-font);
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: rgb(240, 217, 230);
+}
+
+.desc {
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: 500;
+  color: #323131;
+}
+
+.strawberry-smoothie {
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.about {
+  font-family: var(--primary-font);
+  font-size: 36px;
+  color: rgb(50, 49, 49);
+}
+
+.illustration-img {
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(244, 235, 235);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.method {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 220, 201);
+}
+
+.breaker {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to left,
+    rgb(221, 78, 30),
+    rgb(255, 98, 59),
+    rgb(249, 171, 3),
+    rgb(249, 239, 230)
+  );
+  height: 50px;
+}
+
+.illustration-text {
+  max-width: 300px;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.image-container {
+  display: inline-block;
+  margin: 10px 0 30px 0;
+}
+
+.same-size-image {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.large-logo {
+  width: 20%;
+  height: 55%;
+  display: block;
+  margin: 20px auto;
+}
+
+.contact-logo {
+  background: whitesmoke;
+  text-align: center;
+}
+
+.contact-img {
+  display: block;
+  margin-left: 50px;
+}
+
+/* PRODUCTS PAGE */
+
+.products-grid {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  overflow: hidden;
+  transition: transform 0.3s;
+  padding: 10px;
+}
+
+.products-grid:hover {
+  transform: scale(0.9);
+}
+
+.products-header {
+  font-family: var (--primary-font);
+}
