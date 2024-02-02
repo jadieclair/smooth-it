@@ -1,6 +1,7 @@
 body {
   padding: 15px;
   font-family: "Work Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -50,9 +51,12 @@ body {
 .title {
   font-size: 90px;
   margin-bottom: 20px;
-  font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+.title-class {
+  font-family: "Dancing Script", cursive;
 }
 
 .subtitle {
