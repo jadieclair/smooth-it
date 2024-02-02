@@ -78,6 +78,7 @@ body {
 
 .desc-container {
   display: flex;
+  flex-direction: column;
   font-optical-sizing: auto;
   font-style: normal;
   background-color: rgb(240, 217, 230);
@@ -85,8 +86,7 @@ body {
 
 .desc {
   max-width: 900px;
-  margin: 30px auto;
-  text-align: center;
+  margin: 20px auto;
   font-weight: 500;
   color: #323131;
 }
@@ -104,7 +104,9 @@ body {
   transform: translateY(-50%);
 }
 
-.about {
+.about-us {
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-weight: 700;
   font-size: 36px;
   color: rgb(50, 49, 49);
 }
@@ -118,10 +120,8 @@ body {
 }
 
 .method {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(242, 220, 201);
+  color: rgb(50, 49, 49);
 }
 
 .breaker {
@@ -144,8 +144,7 @@ body {
 }
 
 .image-container {
-  display: inline-block;
-  margin: 10px 0 30px 0;
+  margin: 10px 0;
 }
 
 .same-size-image {
@@ -164,12 +163,12 @@ body {
 
 .contact-logo {
   background: whitesmoke;
-  text-align: center;
+  margin-bottom: 5px;
 }
 
 .contact-img {
   display: block;
-  margin-left: 50px;
+  text-align: center;
 }
 
 .button {
@@ -209,7 +208,8 @@ body {
 }
 
 .products-header {
-  font-family: var (--primary-font);
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-weight: 700;
 }
 
 /* CONTACT PAGE */
